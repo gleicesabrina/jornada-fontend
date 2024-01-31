@@ -4,6 +4,7 @@
     padding: 16px;
     box-shadow: 4px 4px gray;
     text-align: center;
+    width: 300px;
   }
   
   .card > h2{
