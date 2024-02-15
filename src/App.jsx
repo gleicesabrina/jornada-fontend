@@ -36,6 +36,10 @@ useEffect(function(){
 
   return (
     <>
+    <div className="title">
+      <h1>The Rick and Morty</h1>
+    </div>
+    
       <div className="cards">
        
         {itens.map((item,i) => <Card item={item} key={i} />)}

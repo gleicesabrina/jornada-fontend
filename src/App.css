@@ -1,6 +1,13 @@
 #root{
     width: 100%;
 }
+.title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #213547;
+
+}
 .cards{
     display: flex;
     flex-wrap: wrap;

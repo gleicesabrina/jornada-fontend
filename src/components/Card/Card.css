@@ -1,16 +1,19 @@
 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 1px solid black;
     border-radius: 10px;
     padding: 16px;
     box-shadow: 4px 4px gray;
     text-align: center;
+    cursor: pointer;
     width: 300px;
   }
   
   .card > h2{
     font-size: 32px;
     border-left: 6px solid  #A9D3E9;
-    cursor: pointer;
   }
   
   .card > img {
@@ -18,7 +21,6 @@
   }
 
   .tag{
-
     background: darkslategrey;
     color: white;
     font-size: 12px;
